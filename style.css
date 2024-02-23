@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 400px;
+  }
+  
+  /*============
+  Header Styling 
+  =============*/
+  header {
+    /*Cor do texto em branco*/
+    /*Metam o logo e nav em duas colunas. (display: flex)
+    Depois, quero que centralizem horizontalmente
+    e também verticalmente.
+     */
+    background: tomato;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+    /*Padding de 30 pixeis */
+  }
+  
+  .logo {
+    font-size: 60px;
+    font-weight: bold;
+    
+    /*Metam o logo em negrito */
+  }
+  
+  .nav-list {
+    /*Tirem as bolinhas da lista*/
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-links {
+    /*Metam cor de texto em branco*/
+    /*Tirem a decoração do texto*/
+    /*Transformem o texto para letras maiúsculas*/
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /*============
+  Section Styling 
+  =============*/
+  
+  section {
+    height: 1000px;
+    max-width: 800px;
+    margin: 100px auto; /*Damos margem de 100 pixeis em cima e em baixo, e centralizamos da esquerda e direita */
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Metam a direção em coluna
+    Depois, centralizem verticalmente*/
+  }
+  
+  .hero-title {
+    /*Metam tamanho da letra em 60 pixeis*/
+    /*Metam em bold */
+    font-size:60px ;
+    font-weight: bold;
+  }
+  
+  .cat-of-the-day {
+    margin: 40px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .cat-gallery {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .gallery-pictures {
+    display: flex;
+    justify-content: center;
+   gap: 25px;
+    /*Criem colunas (display: flex)
+    Depois centralizem horizontalmente
+    Dêm um espaço entre as imagens de 50 pixeis*/
+  }
